@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "free CRM login senario.",
+        "description": "",
+        "id": "free-crm-login-feature.;free-crm-login-senario.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27412408700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should be login page.",
+            "match": {
+              "location": "LoginStepDefination.user_should_be_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1196700700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter the login id and password",
+            "match": {
+              "location": "LoginStepDefination.enter_the_login_id_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 240349300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on login button.",
+            "match": {
+              "location": "LoginStepDefination.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1726492900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "home page must be display.",
+            "match": {
+              "location": "LoginStepDefination.home_page_must_be_display()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM login feature.",
+    "description": "",
+    "id": "free-crm-login-feature.",
+    "keyword": "Feature",
+    "uri": "./src/main/java/feature/login.feature"
+  }
+]
