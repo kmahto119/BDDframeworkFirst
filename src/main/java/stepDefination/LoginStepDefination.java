@@ -26,6 +26,7 @@ public class LoginStepDefination extends TestRunner {
 			String title = driver.getTitle();
 			   System.out.println(title);
 			   Assert.assertEquals("Cogmento CRM", title);
+			   System.out.println("1st hi..");
 	}
 
 	@When("^enter the login id and password$")
